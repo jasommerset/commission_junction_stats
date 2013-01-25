@@ -14,4 +14,5 @@ Gem::Specification.new do |gem|
   gem.name          = "commission_junction_stats"
   gem.require_paths = ["lib"]
   gem.version       = CommissionJunctionStats::VERSION
+  gem.add_dependency "nokogiri"
 end
